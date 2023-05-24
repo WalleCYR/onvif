@@ -88,6 +88,8 @@ func (tp Boolean) NewBool(data bool) Boolean {
 */
 type Float float32
 
+type FloatAttrList []float32
+
 /*
 	Construct an instance of xsd Float type
 */
